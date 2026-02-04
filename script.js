@@ -4,9 +4,7 @@ const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('navMenu');
 const navbar = document.querySelector('.navbar');
 
-/* ==============================
-   Navbar color change on scroll
-============================== */
+
 window.addEventListener('scroll', () => {
   if (window.scrollY > 50) {
     navbar.classList.add('scrolled');
@@ -15,16 +13,12 @@ window.addEventListener('scroll', () => {
   }
 });
 
-/* ==============================
-   Hamburger menu toggle
-============================== */
+
 hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('show');
 });
 
-/* ==============================
-   Active section highlight
-============================== */
+
 window.addEventListener('scroll', () => {
   let current = '';
 

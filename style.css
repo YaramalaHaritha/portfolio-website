@@ -12,7 +12,7 @@
 }
 
 
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +30,7 @@ body {
   line-height: 1.6;
 }
 
-/* ================= NAVBAR ================= */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -99,9 +99,6 @@ nav a.active {
   background: var(--white);
 }
 
-
-
-/* Hamburger */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -115,18 +112,7 @@ nav a.active {
   margin: 4px 0;
 }
 
-/* ================= SECTIONS ================= */
-/*.section {
-  padding: 110px 10% 80px;
-  opacity: 0;
-  transform: translateY(40px);
-  transition: 1s ease;
-}*/
 
-/*.section.show {
-  opacity: 1;
-  transform: translateY(0);
-}*/
 .section {
   padding: 80px 20px;
 }
@@ -139,7 +125,7 @@ h2 {
   font-size: 2rem;
 }
 
-/* ================= HERO ================= */
+
 .hero {
   height: 100vh;
   background: linear-gradient(135deg, #ffffff, #f7eaea);
@@ -193,7 +179,7 @@ h2 {
   box-shadow: 0 6px 15px rgba(139, 0, 0, 0.25);
 }
 
-/* about*/
+
 .about-section {
   background: #ffffff;
 }
@@ -206,7 +192,7 @@ h2 {
   letter-spacing: 0.5px;
 }
 
-/* Container */
+
 .about-container {
   max-width: 1100px;
   margin: 0 auto;
@@ -216,7 +202,7 @@ h2 {
   align-items: flex-start;
 }
 
-/* Left text */
+
 .about-text p {
   font-size: 1rem;
   line-height: 1.8;
@@ -229,7 +215,7 @@ h2 {
 }
 
 
-/* Right cards */
+
 .about-highlights {
   display: flex;
   flex-direction: column;
@@ -257,7 +243,7 @@ h2 {
 }
 
 
-/* ================= SKILLS & PROJECTS GRID ================= */
+
 .skills-container,
 .projects {
   display: grid;
@@ -265,7 +251,7 @@ h2 {
   gap: 30px;
 }
 
-/* ================= CARDS ================= */
+
 .card,
 .project-card {
   background: var(--card-light);
@@ -286,7 +272,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* ================= PROJECT LIST ================= */
+
 .project-card ul {
   margin: 15px 0;
   padding-left: 18px;
@@ -303,14 +289,12 @@ h2 {
   font-weight: 500;
 }
 
-/* ================= CONTACT ================= */
 #contact p {
   text-align: center;
   margin-bottom: 8px;
   color: var(--text-muted);
 }
 
-/* ================= FOOTER ================= */
 footer {
   background: #f4f4f4;
   padding: 20px;
@@ -319,7 +303,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ================= RESPONSIVE ================= */
+
 @media (max-width: 768px) {
 
   .hamburger {
