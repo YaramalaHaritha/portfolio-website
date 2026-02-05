@@ -35,6 +35,15 @@ input{
     outline: none;
     border-color: #7b2cbf;
 }
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
 button{
     width: 100%;
     padding: 10px;
@@ -57,4 +66,12 @@ button:hover{
     font-size: 14px;
     line-height: 1.5;
     color: #333;
+}
+#copyBtn {
+  margin-top: 10px;
+  background: #30c481;
+}
+
+#copyBtn:hover {
+  background: #29ae39;
 }

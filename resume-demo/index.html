@@ -4,19 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume Summary</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h2>AI Resume Summary Generator</h2>
+        <h2> Resume Summary Generator</h2>
         <input type="text" id="name" placeholder="Your Name">
         <input type="text" id="role" placeholder="Target Role">
         <input type="text" id="skills" placeholder="Your Skills">
+        <select id="level">
+            <option value="">Select Profile Type</option>
+            <option value="fresher">Fresher</option>
+            <option value="experienced">Experienced</option>
+        </select>
+
 
         <button onclick="generateSummary()">Generate Summary</button>
 
         <p id="output"></p>
+        <button id="copyBtn" onclick="copySummary()">Copy Summary</button>
+
 
     </div>
     
